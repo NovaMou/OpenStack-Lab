@@ -12,3 +12,4 @@ Installer et configurer OpenStack (MicroStack) sur Ubuntu avec Snap et lancer av
 Mettre à jour le système :  
 ```bash
 sudo apt update && sudo apt upgrade -y
+![image alt](https://github.com/NovaMou/OpenStack-Lab/blob/e8411c49884ca809ccabb6c961b4e818eeba5805/linuxcommande.webp)
