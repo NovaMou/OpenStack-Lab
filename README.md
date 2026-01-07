@@ -248,3 +248,26 @@ my-first-instance
 ![image alt](https://github.com/NovaMou/OpenStack-Lab/blob/c5b45cb255a421a4a5411f348d883a917d08b872/https___dev-to-uploads.s3.amazonaws.com_uploads_articles_dy0mv5dj2456vptbcxme.webp)
 
 
+## Résumé du projet : Déploiement de VM MicroStack/OpenStack sur Ubuntu
+
+### Objectif
+Installer et configurer OpenStack (MicroStack) sur Ubuntu avec Snap,  
+et lancer avec succès une instance de machine virtuelle (VM).
+
+### Problèmes rencontrés
+
+
+- **Problème :** Connexion réseau échouée  
+  **Cause :** DHCP et DNS manquants  
+  **Solution :** Modification de netplan, redémarrage des services, ajout de `resolv.conf`
+
+- **Problème :** Erreurs lors de l'installation Snap  
+  **Cause :** Problème de résolution de noms  
+  **Solution :** Résolu après correction du DNS
+
+### Ce que j'ai appris
+Ce projet m'a permis de :
+
+- Acquérir des connaissances pratiques sur le réseau Linux et Netplan  
+- Déboguer des problèmes de connectivité dans les VM  
+- Installer OpenStack via Snap avec MicroStack 
